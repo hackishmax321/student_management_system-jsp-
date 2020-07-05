@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2019, 11:39:51 AM
+    Author     : DigitalForce™
+*/
+
+.cal-main {
+    width:100%;
+    background-color: #ffffff;
+}
+
+.cal {
+    border:2px solid #1e90ff;
+    border-radius: 10px;
+    background-color: #dff9fb;
+    
+}
+
+.cal tr td, .cal tr th {
+    border:2px solid #00d2d3;
+    border-radius: 5px;
+}

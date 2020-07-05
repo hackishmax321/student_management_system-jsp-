@@ -1,0 +1,57 @@
+* {
+	margin:auto;
+}
+
+
+#map {
+		height: 460px;
+		width:100%;
+		padding: 0px;
+			
+
+	}
+
+small {
+		font-size: 15px;
+		color:#00f8;
+	}
+
+form table tr td {
+		height: 50px;
+	}
+
+nav a {
+		color: white;
+	}
+
+#brandN {
+		font-weight: bolder;
+			
+	}
+
+#whiteP {
+		color: white;
+	}
+
+#Locator {
+	padding:10px; 
+	margin: auto;
+	align-content: center;
+
+	}
+
+#gAPI-ban {
+	text-align: justify;
+	font-size: 14px;
+	color: red;
+}
+}
+
+
+	
+
+#gAPI-ban img {
+	position: absolute;
+	float: left;
+	height:50px;
+}

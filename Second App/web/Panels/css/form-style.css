@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 31, 2019, 7:43:14 PM
+    Author     : DigitalForce™
+*/
+.table-title {
+			position: sticky;
+			top: -140px;
+
+		}
+
+		#tb-pop-up {
+			width: 50%;
+			height:650px;
+			
+		}
+
+		#h-tableBox {
+			color: #1B9CFC;
+		}
+
+		#dual-com {
+			position: relative; 
+			left: -3px; 
+			width: 98%;
+			margin: 5px 0px;
+
+		}
+
+		table {
+			width:100%;
+
+		}
+
+
+		#text-field {
+			width: 95%;
+			margin: 10px;
+			background-color: white;
+		}
+
+		#text-field input {
+
+			padding: 20px 10px; 
+			width: 100%;
+			
+		}
+
+		#text-field input[type='submit'] {
+
+			
+			width: 103%;
+			
+		}
+
+		select {
+			padding: 10px 10px; 
+			margin-left: 0px;
+
+			width: 108%; 
+		}
+
+		textarea {
+			padding: 10px 10px; 
+			margin: 10px;
+			width: 95.2%; 
+			height: 150px;
+		}
+                
+                #form-box {
+                    width: 100%;
+                }
+                
+                th {
+                    text-align: center;
+                    background-color: graytext;
+                }
+
+                td {
+                    text-align: center;
+                }
+                

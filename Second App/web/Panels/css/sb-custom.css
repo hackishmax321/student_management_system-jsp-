@@ -1,0 +1,299 @@
+.slider {
+    width: 100%;
+    height:450px;
+    background-color: #262626;
+    margin-bottom: 20px;
+}
+
+.swiper-container {
+	      width: 100%;
+	      padding-top: 50px;
+	      padding-bottom: 80px;
+	    }
+	    .swiper-slide {
+              background-color: white;
+	      background-position: center;
+	      background-size: cover;
+	      width: 300px;
+	      height: 300px;
+	      border-left: 2px ridge #25CCF7;
+	      border-bottom: 10px ridge #1B9CFC;
+	    }
+
+	    .swiper-img {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-size: cover;
+	    	background-position: center;
+	    }
+
+	    .swipe-des {
+	    	background-color: #1B9CFC;
+	    	vertical-align: middle;
+                font-size: 14px;
+    color:#000;
+	    	
+	    }
+
+
+
+.user-box {
+	
+	margin: auto;
+	padding: 0px;
+	width:100%;
+	
+}
+
+.user-img {
+	position: relative;
+	background-color: blue;
+	top:-10px;
+	margin: auto;
+	padding: 0;
+	height:150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 1px solid black;
+	align-content: center;
+}
+
+.user-img:before {
+	content: '';
+	position: absolute;
+	left: -11px;
+	top:-11px;
+	height:170px;
+	width: 170px;
+	border-radius: 50%;
+	background-color: #f5f6fa;
+	border: 1px solid #bdc3c7;
+	z-index: -1;
+	box-shadow: 0px 0px 20px #dcdde1;
+	
+}
+
+.details {
+	margin: auto;
+	padding: 0px;
+	width:60%;
+	text-align: center;
+	align-content: center;
+}
+
+.line {
+
+	font-size: 20px;
+}
+
+		.main {
+			display: flex;
+			
+			width:100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+
+		} 
+
+		.table-box {
+			position: relative;
+			top: -100px;
+			height: 600px;
+			width:100%;
+			margin-top: 100px;
+			overflow-y: scroll;
+			box-shadow: 0 10px 100px rgba(0,0,0,0.5);
+			background: white;
+
+		}
+                
+                .table-title {
+			position: sticky;
+			top: -140px;
+
+		}
+
+		#tb-pop-up {
+			width: 50%;
+			height:650px;
+			display: none;
+		}
+
+		#h-tableBox {
+			color: #1B9CFC;
+		}
+
+		#dual-com {
+			position: relative; 
+			left: -3px; 
+			width: 98%;
+			margin: 5px 0px;
+
+		}
+                
+                #text-field {
+			width: 95%;
+			margin: 10px;
+			background-color: white;
+		}
+
+		#text-field input {
+
+			padding: 10px 10px; 
+			width: 100%;
+			
+		}
+
+		#text-field input[type='submit'] {
+
+			
+			width: 103%;
+			
+		}
+
+		select {
+			padding: 10px 10px; 
+			margin-left: 0px;
+
+			width: 108%; 
+		}
+
+		textarea {
+			padding: 10px 10px; 
+			margin: 10px;
+			width: 95.2%; 
+			height: 150px;
+		}
+
+		table {
+			width:100%;
+		}
+
+		table, th, td {
+			border:1px solid black;
+			border-collapse: collapse;
+			
+		}
+
+		td:hover {
+			background-color: #1B9CFC;
+			color: #fff;
+		}
+
+		th {
+			position: sticky;
+			top: 0px;
+			background-color: #4834d4;
+			color:  #fff;
+			box-sizing: border-box;
+		}
+
+		tr th:nth-child(1){
+			background-color: #eb4d4b;
+			width: 80px;
+		}
+
+		tr td:nth-child(1){
+			background-color: #686de0;
+			color: white;
+			text-align: center;
+			width: 80px;
+		}
+
+		tr th:nth-child(2){
+			
+			width: 330px;
+		}
+
+		tr th:nth-child(3), tr th:nth-child(4), tr th:nth-child(5), tr th:nth-child(6){
+			
+			width: 170px;
+		}
+
+		tr td:nth-child(7) {
+			text-align: right;
+		}
+                
+                #spec-td a {
+                    text-decoration: none;
+                    transition: .7s;
+                }
+                
+                #spec-td a:hover{
+                    text-decoration: none;
+                    color:white;
+                }
+                
+                #spec-td {
+                    transition: .7s;
+                }
+                
+                #spec-td:hover {
+                    background-color: #1B9CFC;
+                    color:white;
+                }
+                
+                .h1-level02 {
+			font-family: 'Julius Sans One', sans-serif;
+			font-size: 30px;
+			color: black; 
+                        text-align: center;
+                        
+                        transition: .7s;
+
+			
+		}
+                
+                .h1-level02:hover {
+                        color: white; 
+                }
+                
+                .im-box {
+				
+				height:360px;
+				width:360px;
+				margin: 20px;
+				float: left;
+				background-size: cover;
+                                background-position: center;
+                                
+				transition: .5s;
+				transition-timing-function: ease-in;
+				
+			}
+
+			.im-box a {
+				color: #d1d8e0;
+				text-align: center;
+			}
+
+			.im-box a ion-icon {
+				font-size: 290px;
+
+				color: #535c68;
+				transition: 0.7s;
+			}
+
+			.im-box a ion-icon:hover {
+				color: white;
+				font-size: 300px;
+			}
+                        
+                        #spe {
+			color: #ff4757;
+			text-align: left;
+		}
+                
+                #im-boxV2 {
+                    background-color: #262626;
+                    width: 100%;
+                    height:300px;
+                }
+                
+                
+                #im-edit {
+                    position: relative;
+                    left: 150px;
+                    
+                }

@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 12, 2019, 5:35:53 PM
+    Author     : DigitalForce™
+*/
+
+.btn2{
+    color: #0099CC;
+    background: transparent; 
+    border: 2px solid #0099CC;
+    border-radius: 6px; 
+    border: none;
+      color: white;
+    padding: 5px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase; 
+
+  background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+     
+  }
+
+     
+      .btn2:hover {
+      background-color: #008CBA;
+      color: white;
+ }
+#Tarea{}
+
+
+ #ch{
+ margin-left:280px;
+ } 
+ #ch1{
+  margin-top:50px;
+ }
+#example2 {
+    border: 1px solid;
+    padding:40px 20px;
+    box-shadow:0 0 10px rgba(0, 0, 0,1);
+    
+    margin: auto;
+    width: 95%;
+  
+
+ 
+}
+
+	.btn1{
+		color: #0099CC;
+		background: transparent; 
+		border: 2px solid #0099CC;
+		border-radius: 6px; 
+		border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase; 
+
+  background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+      position: fixed;
+   left: 87%;
+   top:30%;
+  }
+
+     
+      .btn1:hover {
+      background-color: #008CBA;
+      color: white;
+ }
+#c1{
+     background-color:#343a40;
+     margin-left: 50px;
+     height: 30px;
+     position: absolute;
+     width: 100%;
+ }
+  #c2{
+     background-color:#008CBA;
+     position: absolute;
+     width: 50px;
+     height:30px;
+ }
+ input[type='submit'] { font-size: 20px; font-family: monospace; color: white;}
+ #im{ margin-left: 40px;
+     margin-top:40px;
+     max-height: 500px;
+ }
+ 
+ #com{
+     margin-left: 100px;
+     margin-right: 200px;
+     padding: 10px 10px 10px 10px;
+     
+     
+ }
+ #com_d{
+     
+       box-shadow:0 0 10px rgba(0, 0, 0,0.15);
+       margin-left: 100px;
+       margin-right: 100px;
+       background-color:#e9ecef;
+ }
+ #im_alg{ margin-left: 100px;
+       margin-right: 100px;}

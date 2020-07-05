@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 18, 2019, 1:04:42 PM
+    Author     : DigitalForce™
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Assistant|Quicksand');
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: gray;
+
+		}
+
+		.main {
+			display: flex;
+			
+			width:100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+
+		} 
+
+		.table-box {
+			height: 550px;
+			width:80%;
+			margin-top: 100px;
+			padding: 5px;
+			overflow-y: scroll;
+			box-shadow: 0 10px 100px rgba(0,0,0,0.5);
+			background: white;
+
+		}
+
+		#type-bar {
+			position: absolute;
+			height: 50px;
+			bottom: 10%;
+			border:1px solid blue;
+
+		}
+
+		#t-chat {
+			border-style: none;
+			height:95%;
+			width: 95%;
+
+		}
+
+		.m-box {
+			width:40%;
+			padding: 5px;
+			position: relative;
+			left:20px;
+			background-color: #22a6b3;
+			font-family: 'Quicksand', sans-serif;
+			font-weight: bold;
+			font-size: 16px;
+			color: white;
+			border:2px solid black;
+			border-radius: 20px;
+		}
+
+		#m-left {
+			position: relative;
+			background-color: #ff7979;
+			float: right;
+			left: -20px;
+		}
+
+		#send {
+			padding: 2px;
+			font-size: 50px;
+			color: #22a6b3;
+		}
+
